@@ -1,0 +1,27 @@
+ahorros=0
+enero = float(input("cuanto cobraste en enero: "))
+eneroah= enero*0.10
+febrero = float(input("cuanto cobraste en febrero: "))
+febreroah= febrero*0.10
+marzo = float(input("cuanto cobraste en marzo: "))
+marzoah= marzo*0.10
+abril = float(input("cuanto cobraste en abril: "))
+abrilah= abril*0.10
+mayo = float(input("cuanto cobraste en mayo: "))
+mayoah= mayo*0.10
+junio = float(input("cuanto cobraste en junio: "))
+junioah= junio*0.10
+julio = float(input("cuanto cobraste en julio: "))
+julioah= julio*0.10
+agosto = float(input("cuanto cobraste en agosto: "))
+agostoah= agosto*0.10
+septiembre = float(input("cuanto cobraste en septiembre: "))
+septiembreah= septiembre*0.10
+octubre = float(input("cuanto cobraste en octubre: "))
+octubreah= octubre*0.10
+noviembre = float(input("cuanto cobraste en noviembre: "))
+noviembreah= noviembre*0.10
+diciembre = float(input("cuanto cobraste en diciembre: "))
+diciembreah= diciembre*0.10
+ahorros= eneroah+febreroah+marzoah+marzoah+abrilah+mayoah+junioah+julioah+agostoah+septiembreah+octubreah+noviembreah+diciembreah
+print("los ahorros de todo el año son: ",ahorros)
